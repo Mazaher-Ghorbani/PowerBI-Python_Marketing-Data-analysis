@@ -1,0 +1,62 @@
+THE CHALLENGE
+
+In the resources section, you will find some information about performance of different
+keywords, adgroups and campaigns that we run in SEM, stored as a csv file. We would like
+you to perform a deep dive into this data using the tools of your choice and address each of
+the following questions:
+	• Give an overview of the dataset and highlight interesting findings in the data
+	• Select breakouts (e.g., market_code, device type, theme_name, etc..) and
+		metrics (e.g., any of the provided or engineered ones like conversion) you think are relevant
+	• What is the best performing Market for company name?
+	• Give your definition of performance and explain why we need to look at
+		performance using your proposed definition
+	• What are the global and market average company name revenue per clickin?
+	• What does it measure?
+	• Which metric(s) would you consider as other valuable KPI for measuring
+		performance? Why?
+	• How can we use `user_engagement` to explain `pub_keyword_id` or `theme_name` value?
+	• What are the Clickout to Booking ratios by locale and what are possible explanations
+		for observed differences? What could the SEM team do, to increase the C2B?
+	• What should be the average price to pay for a conversion (defined as clickouts) if we
+		wanted a 125% ROAS (clickout_rev/cost)?
+	• SEM team has tested a new bidding algorithm only in the Australian market (AU)
+		during Oct-Nov.
+	• Please summarize the business impact of the test, and explain what you
+		would suggest as next steps.
+	• Describe how we can ensure that your findings are statistical significant?
+
+
+Description of the Dataset
+• ymd: Date
+• market_code: Alpha-2 country code
+• account_id: Marketing account id
+• pub_campaign_id: Marketing campaign id
+• pub_adgroup_id: Marketing group id
+• pub_keyword_id: Marketing keyword id
+• pub_device: Users device type
+• match_type: Type of keyword matching during searches
+• theme_name: Groups of keywords
+• replacement_type: Placeholder for keyword category
+• (e.g. the keywords 'hotel Berlin' would be a replacement type 'City' while 'hotel Eiffel
+Tower' would be a replacement type 'Poi')
+• impressions: Number of times company name has been shown on SEM platform
+• cost: Keyword bidding cost * clickins (in Euro cents)
+• clickins: Number of clicks leading to company name platform
+• clickouts: Number of clicks users make on company name
+• bookings: Number of bookings users make on company name
+• clickout_rev: company name Revenue (in Euro cents)
+• booking_amount: Average booking amount in Euros
+• user_engagement: Average time users engage with company name website (in seconds)
+What factors do we consider while evaluating your case study?
+• Your capabilities to explore and make sense of our datasets while generating
+meaningful and clearly presented insights that our leadership team can use to drive
+marketing strategy
+• The reasons behind the answers that you submit, amount and conclusiveness of
+evidence you provide to support them
+• For open-ended questions: explanation why proposed solutions/strategies are better
+than alternatives and feasibility of them
+• How you use visualizations and data tools to clearly convey and summarize insights
+• Your ability to use different analytical and statistical tools/techniques/methodologies
+to extract most impactful insights from the dataset
+• Approach you use to find solutions to each question, how did you come up with your
+conclusions, were you able to spot potential caveats
